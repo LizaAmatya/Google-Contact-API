@@ -84,6 +84,6 @@ def main():
 if __name__ == '__main__':
     main()
 
-# http: // localhost: 42047 /?code = 4/0AX4XfWgZTo1A7eGOReI6jERpg787drXOvzuLR3x0dfNzHV6pRmN2ILi4RwVtePrnTowJGA & scope = https: // www.googleapis.com/auth/contacts
+# http://localhost:42047/?code=<generated_code>&scope=https://www.googleapis.com/auth/contacts
 
-# curl - v - XPOST https: // www.googleapis.com/oauth2/v4/token? - d code = <authorization code > -d redirect_uri = <redirect url > -d client_id = <client_id > -d client_secret = <client_secret > -d grant_type = authorization_code
+# curl -v -XPOST https://www.googleapis.com/oauth2/v4/token? - d code=<authorization code > -d redirect_uri=<redirect url > -d client_id=<client_id > -d client_secret=<client_secret > -d grant_type = authorization_code

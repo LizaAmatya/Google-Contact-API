@@ -36,15 +36,15 @@ https://console.cloud.google.com/
 
     - Can create in Credntials menu -> Create OAuth2 creds
     - Choose Application type: web app/ android, etc. acc to requirement
+    - Add Redirect URI (uri with port) that you have used in your system
     - complete setup and it generates : client_secret, client_id
     - download in working directory: OAuth2 json -> change filename to credentials.json  // Used in code;  Added in gitignore
-    - Match redirect uri with port that of used in code
 
-4. Need to Add Redirect URIs in Google Console
-    - Credentials -> Choose Oauth2 credentials -> edit: Add in Redirect URIs 
-    - Match redirect uri with port that of used in code
+    *Note: Match redirect uri with port that of used in code*
 
 5. Run script
+
+    ``` python googlecontact.py ```
 
 6. While running script, token.json is created for first time login/expiry or invalid, and for later uses the same token.json for refresh token  // saved through code; Added token.json in gitignore
 
